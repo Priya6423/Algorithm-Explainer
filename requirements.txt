@@ -1,0 +1,9 @@
+streamlit==1.58.0               # UI framework for the web interface
+langchain==1.2.10               # Core LangChain orchestration and LCEL primitives
+langchain-community==0.4.2      # Community document loaders (DirectoryLoader, TextLoader)
+langchain-chroma==1.1.0         # LangChain integration for ChromaDB vector store
+langchain-huggingface==1.2.2    # LangChain integration for HuggingFace embedding models
+langchain-groq==1.1.3           # LangChain integration for Groq-hosted Llama models (free tier)
+chromadb==1.5.9                 # Vector database for storing and querying embeddings
+sentence-transformers==5.5.1    # Local HuggingFace sentence embedding models (all-MiniLM-L6-v2 etc.)
+python-dotenv==1.2.2            # Loads GOOGLE_API_KEY from a .env file at runtime
